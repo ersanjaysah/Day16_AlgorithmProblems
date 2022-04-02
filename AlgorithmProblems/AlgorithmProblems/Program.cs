@@ -7,7 +7,7 @@ namespace AlgorithmProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Algorithm problems");
-            primeNumber.CheckPrime();
+            Algorithem.CheckAnagram();
         }
     }
 }
