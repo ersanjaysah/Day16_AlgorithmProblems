@@ -6,8 +6,10 @@ namespace AlgorithmProblems
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Algorithm problems");
-            Algorithem.CheckAnagram();
+                Console.WriteLine("Welcome to the Algorithm problems");
+                string[] names = { "Banana", "Apple", "Kiwi", "PineApple", "Mango","Lichi","Coconut" };
+                Algorithem algorithem = new Algorithem();
+                algorithem.InsertionSort(names);
         }
     }
 }
