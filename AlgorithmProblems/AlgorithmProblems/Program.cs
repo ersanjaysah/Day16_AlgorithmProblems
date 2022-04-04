@@ -6,10 +6,12 @@ namespace AlgorithmProblems
     {
         static void Main(string[] args)
         {
-                Console.WriteLine("Welcome to the Algorithm problems");
-                string[] names = { "Banana", "Apple", "Kiwi", "PineApple", "Mango","Lichi","Coconut" };
-                Algorithem algorithem = new Algorithem();
-                algorithem.InsertionSort(names);
+
+            int[] arr = { 32, 45, 67, 2, 56, 78, 1, 54, 7 };
+            Algorithem obj = new Algorithem();
+            obj.bubbleSort(arr);
+            Console.WriteLine("Sorted array");
+            obj.printArray(arr);
         }
     }
 }
